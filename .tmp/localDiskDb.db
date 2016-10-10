@@ -1,0 +1,24 @@
+{
+  "data": {
+    "github-sync": []
+  },
+  "schema": {
+    "github-sync": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "github-sync": {}
+  }
+}
