@@ -1,0 +1,24 @@
+{
+  "name": "bugzilla-github-sync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalettu/bugzilla-github-sync.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chalettu/bugzilla-github-sync/issues"
+  },
+  "homepage": "https://github.com/chalettu/bugzilla-github-sync#readme",
+  "dependencies": {
+    "bugzilla-jsonrpc": "git+https://github.com/chalettu/bugzilla-jsonrpc.git",
+    "sails": "^0.12.7",
+    "waterline-sqlite3": "^1.0.3"
+  }
+}
