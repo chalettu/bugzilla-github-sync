@@ -8,7 +8,17 @@
 module.exports = {
 
   attributes: {
-
+      "bugzilla_id": {
+      type: 'integer'
+    },
+    "github_id":{
+      type: "integer"
+    },
+    "ticket_status":{
+      type: "string",
+      enum: ['open','closed'],
+      defaultsTo: 'open'
+    }
   }
 };
 
