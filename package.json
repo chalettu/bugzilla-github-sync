@@ -26,6 +26,7 @@
     "request-promise": "^4.1.1",
     "sails": "~0.12.7",
     "sails-disk": "~0.10.9",
+    "sails-hook-cron": "^2.2.0",
     "waterline-sqlite3": "^1.0.3"
   },
   "scripts": {

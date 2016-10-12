@@ -39,7 +39,7 @@ module.exports.connections = {
     /**
      * Location of file if type='disk'
      */
-    filename: './tmp/db.sqlite',
+    filename: '/tmp/db.sqlite',
  
     /**
      * Set to true to output SQL queries
