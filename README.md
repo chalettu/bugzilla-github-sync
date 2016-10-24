@@ -34,6 +34,9 @@ This repo comes with a working DOCKERFILE and all you need to get it set up is r
 ```docker build -t myDockerId/bugzilla-github-sync .```  
 ```docker run -dt myDockerId/bugzilla-github-sync ```  
 
+If you would like to run this in a container and do not need to update the code base, please view the image at [https://hub.docker.com/r/chaleninja/bugzilla-github-sync/](https://hub.docker.com/r/chaleninja/bugzilla-github-sync/) 
+
+
 ## License
 
 See [LICENSE.txt](LICENSE.txt)
